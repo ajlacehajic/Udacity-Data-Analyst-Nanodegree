@@ -196,6 +196,7 @@ Let's start with the simplest data `city_list`
 
 ```python
 city_list.head()
+
 ```
 
 
@@ -757,7 +758,7 @@ miss.matrix(munich_data);
 ```
 
 
-![png](img/output_41_0.png)
+![png](explore_weather_trends_files/explore_weather_trends_41_0.png)
 
 
 As the limitted data for years 1746-1749 years is available, for simplicity we will just reduce the scope of our analysis for the range from 1750 to 2015 as it will not have a great impact on the analysis.
@@ -801,7 +802,7 @@ plt.legend(["Munich temperature - Average per year",
 ```
 
 
-![png](img/output_46_0.png)
+![png](explore_weather_trends_files/explore_weather_trends_46_0.png)
 
 
 #### Moving average temperatures <a class="anchor" id="plot-moving-avg"></a>
@@ -840,7 +841,7 @@ ax.legend(["Munich temperature - Average per year",
 ```
 
 
-![png](img/output_49_0.png)
+![png](explore_weather_trends_files/explore_weather_trends_49_0.png)
 
 
 #### Difference between moving average temperatures to global <a class="anchor" id="plot-temp-diff"></a>
@@ -951,7 +952,7 @@ ax.legend(["Difference to global in °C"]);
 ```
 
 
-![png](img/output_52_0.png)
+![png](explore_weather_trends_files/explore_weather_trends_52_0.png)
 
 
 #### Linear regression <a class="anchor" id="plot-linear-regression"></a>
@@ -1039,7 +1040,7 @@ ax.legend(["Munich temperature - Moving average for 10 years",
 ```
 
 
-![png](img/output_55_0.png)
+![png](explore_weather_trends_files/explore_weather_trends_55_0.png)
 
 
 ### Temperature prediction
